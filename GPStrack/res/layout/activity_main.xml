@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <CheckBox
+        android:id="@+id/WIFIbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/GPSbox"
+        android:layout_below="@+id/GPSbox"
+        android:layout_marginTop="54dp"
+        android:text="@string/WIFI" />
+
+    <CheckBox
+        android:id="@+id/GPSWIFI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/GPSbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:text="@string/GPSWIFI" />
+
+    <CheckBox
+        android:id="@+id/GPSbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/GPSWIFI"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:text="@string/GPS" />
+
+    <TextView
+        android:id="@+id/latText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="52dp"
+        android:layout_toLeftOf="@+id/GPSWIFI"
+        android:text="@string/defaultzero" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/longText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/latText"
+        android:layout_alignRight="@+id/WIFIbox"
+        android:text="@string/defaultzero" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/accuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/longText"
+        android:layout_alignBottom="@+id/longText"
+        android:layout_toRightOf="@+id/GPSWIFI"
+        android:text="@string/defaultzero"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/longText"
+        android:layout_marginBottom="22dp"
+        android:layout_toLeftOf="@+id/GPSWIFI"
+        android:text="@string/latitude"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/accuText"
+        android:text="@string/accuracy" 
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="@string/longitude"
+        android:textSize="20sp" />
+
+</RelativeLayout>

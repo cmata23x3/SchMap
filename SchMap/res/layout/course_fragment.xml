@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/course_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ListView
+ 		android:id="@android:id/list"   
+ 		android:layout_width="fill_parent"   
+ 		android:layout_height="0dp"  
+ 		android:padding="10dp"  
+ 		android:textSize="16sp"
+ 		android:layout_weight="9"
+ 		android:textIsSelectable="true" >  
+	</ListView> 
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true">
+            
+            <Button
+            	android:id="@+id/createCourseGroup"
+            	android:layout_width="0dp"
+            	android:layout_height="wrap_content"
+            	android:onClick="showCourseGroupDialog"
+            	android:layout_weight="2"
+            	android:text="@string/createCourseGroupButton" />
+
+        	<!-- <Button
+            	android:id="@+id/removeCourse"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:onClick="deleteCourse"
+            	android:layout_weight="1"
+            	android:text="@string/removeCourseButton" /> -->
+        
+        </LinearLayout>
+    
+    </RelativeLayout>
+
+</LinearLayout>

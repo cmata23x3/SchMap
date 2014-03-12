@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="a1">a1</string>
+    <string name="a2">a2</string>
+    <string name="a3">a3</string>
+    <string name="a4">a4</string>
+    <string name="a5">a5</string>
+    <string name="a6">a6</string>
+    <string name="a7">a7</string>
+    <string name="b1">b1</string>
+    <string name="b2">b2</string>
+    <string name="b3">b3</string>
+    <string name="b4">b4</string>
+    <string name="b5">b5</string>
+    <string name="b6">b6</string>
+    <string name="b7">b7</string>
+    <string name="c1">c1</string>
+    <string name="c2">c2</string>
+    <string name="c3">c3</string>
+    <string name="c4">c4</string>
+    <string name="c5">c5</string>
+    <string name="c6">c6</string>
+    <string name="c7">c7</string>
+    <string name="d1">d1</string>
+    <string name="d2">d2</string>
+    <string name="d3">d3</string>
+    <string name="d4">d4</string>
+    <string name="d5">d5</string>
+    <string name="d6">d6</string>
+    <string name="d7">d7</string>
+    <string name="e1">e1</string>
+    <string name="e2">e2</string>
+    <string name="e3">e3</string>
+    <string name="e4">e4</string>
+    <string name="e5">e5</string>
+    <string name="e6">e6</string>
+    <string name="e7">e7</string>
+    <string name="f1">f1</string>
+    <string name="f2">f2</string>
+    <string name="f3">f3</string>
+    <string name="f4">f4</string>
+    <string name="f5">f5</string>
+    <string name="f6">f6</string>
+    <string name="f7">f7</string>
+    <string name="app_name">&quot; SchMap&quot;</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="meet">Meet</string>
+    <string name="meet_body">Amadu will begin implementing this activity</string>
+    <string name="addCourse">Add Course</string>
+    <string name="addGroup">Add Group</string>
+    <string name="createCourseGroupButton">Create Group</string>
+    <string name="add">Add</string>
+    <string name="course_example">i.e.1.00,6.00,18.01,8.01,5.112</string>
+    <string name="removeCourseButton">Remove Course</string>
+    <string name="group_hint">Group Name</string>
+    <string name="not_attend">Not Attend</string>
+    <string name="attend">Attend</string>
+    <string name="location">Location:</string>
+    <string name="name">Name:</string>
+    <string name="location_hint">Location...</string>
+    <string name="type">Type:</string>
+    <string name="pset">Pset</string>
+    <string name="study">Study</string>
+    <string name="style">Style:</string>
+    <string name="begin_time">Begin:</string>
+    <string name="end_time">End:</string>
+    <string name="capacity">Capacity:</string>
+    <string name="optional">i.e. 5,10,15,etc.</string>
+    <string name="Private">Private</string>
+    <string name="visible">Visible</string>
+    <string name="other">Others:</string>
+    
+    <string name="todo">Todo</string>
+    <string name="todo_body"> Amadu Will implement this activity</string>
+    <string name="createTaskButton">Create</string>
+    <string name="createTask">Create Task</string>
+    <string name="editTaskPreferences">Edit Preferences</string>
+    <string name="task_name">Name:</string>
+    <string name="task_name_hint">New Task Name</string>
+    
+    <string name="schedule">Schedule</string>
+    <string name="schedule_body">Sheldon will handle this aspect</string>
+    
+    <string name="map">Map</string>
+    <string name="map_body">Ej will handle this section</string>
+    
+    <string name="remove">Remove Object</string>
+    
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="confirm_password">Confirm Password</string>
+    
+    <string name="doneButton">Done</string>
+    
+    <string name="logout">Logout</string>
+
+</resources>

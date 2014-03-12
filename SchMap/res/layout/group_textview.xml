@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9">
+        
+	    <TextView
+	        android:id="@+id/group_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="30dp"
+	        android:gravity="center_vertical"
+	        android:ellipsize="end"
+	        android:minHeight="?android:attr/listPreferredItemHeight"
+	        android:paddingLeft="2dip"
+	        android:text="@string/name"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <TextView
+	        android:id="@+id/group_location"
+	        android:layout_width="wrap_content"
+	        android:layout_height="25dp"
+	        android:gravity="center_vertical"
+	        android:ellipsize="end"
+	        android:minHeight="?android:attr/listPreferredItemHeight"
+	        android:paddingLeft="2dip"
+	        android:text="@string/location"
+	        android:layout_below="@id/group_name"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+    <!-- <TextView
+        android:id="@+id/attend_button"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/group_name"
+        android:text="@string/attend"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/not_attend_button"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/attend_button"
+        android:layout_below="@+id/attend_button"
+        android:text="@string/not_attend"
+        android:textSize="12sp" /> -->
+	</RelativeLayout>
+</LinearLayout>
